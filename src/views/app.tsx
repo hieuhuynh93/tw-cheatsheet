@@ -5,10 +5,7 @@ import NoMatch from './no_match';
 import ReactGA from 'react-ga';
 
 class App extends Component {
-    setGA = () => {
-        ReactGA.initialize('UA-110182129-1');
-        ReactGA.pageview('Init page view');
-    };
+    setGA = () => {};
     
     componentDidMount() {
         this.setGA();
