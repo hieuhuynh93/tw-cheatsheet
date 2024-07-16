@@ -38,7 +38,7 @@
     "scripts": {
         "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
         "build": "PUBLIC_URL=\"/cheatsheet/\" SKIP_PREFLIGHT_CHECK=true react-scripts build",
-        "postbuild": "rm -rf ../public/cheatsheet && mv build ../public/cheatsheet",
+        "postbuild": "rm -rf ./public/cheatsheet && mv build ./public/cheatsheet",
         "test": "react-scripts test"
     },
     "eslintConfig": {
