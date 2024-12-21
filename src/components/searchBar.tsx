@@ -108,7 +108,9 @@ const SearchBar = ({ searchFilter }: { searchFilter : ( text:string ) => void })
                     <div className="flex flex-col mt-4 space-y-3 lg:mt-0 sm:flex-row sm:space-y-0 sm:space-x-3 sm:items-center sm:justify-center">
                         <button onClick={() => dispatch('ui/expand')} className="px-4 py-2 space-x-3 text-sm text-gray-600 transition-colors duration-300 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">Expand <span className="lg:hidden xl:inline">All</span></button>
                         <button onClick={() => dispatch('ui/collapse')} className="px-4 py-2 space-x-3 text-sm text-gray-600 transition-colors duration-300 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">Collapse <span className="lg:hidden xl:inline">All</span></button>
+                        <a title="" href="https://gg.hieuhc.io.vn/" className="flex items-center justify-center h-10 px-4 text-sm font-medium text-center text-white transition-colors duration-300 transform rounded-md dark:text-gray-900 lg:h-10 bg-primary hover:bg-primary/70">Gradient generator</a>
                     </div>
+                    
                 </div>
             </div>
         </div>
