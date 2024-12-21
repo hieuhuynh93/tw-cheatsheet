@@ -79,7 +79,7 @@ const SearchBar = ({ searchFilter }: { searchFilter : ( text:string ) => void })
                 <div className="flex flex-col lg:items-center lg:justify-center lg:flex-row lg:space-x-4">
                     <div className="flex flex-col items-center sm:flex-row sm:justify-center">
                         <Logo className="object-cover object-left h-8" />
-                        <h1 className="flex items-center pl-2 mt-2 text-lg text-gray-600 dark:border-gray-700 dark:text-gray-300 lg:mt-0 sm:ml-2 sm:border-l sm:border-gray-400">Cheatsheet <span className="flex items-center h-5 px-2 ml-2 text-xs font-bold text-white rounded-md dark:text-gray-900 bg-primary">{tailwindVersion}</span></h1>
+                        <h1 className="flex items-center pl-2 mt-2 text-lg text-gray-600 dark:border-gray-700 dark:text-gray-300 lg:mt-0 sm:ml-2 sm:border-l sm:border-gray-400"><span className="flex items-center h-5 px-2 ml-2 text-xs font-bold text-white rounded-md dark:text-gray-900 bg-primary">{tailwindVersion}</span></h1>
                     </div>
 
                     <div className="relative h-10 mt-4 sm:w-96 xl:w-80 2xl:w-96 sm:mx-auto lg:m-0">
